@@ -1,7 +1,7 @@
 .rodape {
     display: flex;
     justify-content: center;
-    background-color: rgb(213, 161, 255);
+    background: linear-gradient(90.13deg, #536EBD 0.09%, #7995E6 49.98%, #C379EB 99.87%);
 }
 
 .rodape h2 {

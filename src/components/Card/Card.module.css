@@ -7,7 +7,7 @@
     justify-content: space-between;
     transition: all 0.5s;
     cursor: pointer;
-    border: 1px solid rgb(231, 231, 231);
+    border: 1px solid #4b71fd33;
 }
 .container:hover {
     -webkit-transform: scale(1.1);
