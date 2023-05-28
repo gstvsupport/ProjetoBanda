@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CadastroWho from "pages/CadastroWho";
 import CadastroBanda from "pages/CadastroBanda";
 import CadastroEspectador from "pages/CadastroEspectador";
+import Perfil from "pages/Perfil";
 
 function AppRoutes() {
     return (
@@ -20,6 +21,7 @@ function AppRoutes() {
                     <Route path="/" element={<PaginaBase />}>
                     <Route path="inicio" element={<Inicio />}></Route>
                     <Route path="favoritos" element={<Favoritos />}></Route>
+                    <Route path="perfil" element={<Perfil />}></Route>
                     <Route path=":id" element={<Player />}></Route>
                     <Route path="*" element={<NaoEncontrada />}></Route>
                 </Route>

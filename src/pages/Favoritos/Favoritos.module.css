@@ -1,5 +1,6 @@
 .favoritos section{
-    width: 100%;
+    width: 97%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 1rem;
 }

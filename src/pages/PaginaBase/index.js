@@ -1,4 +1,5 @@
 import FavoritosProvider from "Contextos/Favoritos";
+import ReservaProvider from "Contextos/Reserva";
 import Cabecalho from "components/Cabecalho";
 import Container from "components/Container";
 import Rodape from "components/Rodape";
@@ -9,9 +10,11 @@ function PaginaBase() {
         <main>
             <Cabecalho />
             <FavoritosProvider>
-                <Container>
-                    <Outlet />
-                </Container>
+                <ReservaProvider>
+                    <Container>
+                        <Outlet />
+                    </Container>
+                </ReservaProvider>
             </FavoritosProvider>
             <Rodape />
         </main>

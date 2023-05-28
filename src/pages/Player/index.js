@@ -24,14 +24,13 @@ function Player() {
         <>
             {/* <Banner imagem="player" /> */}
             <Titulo>
-                <h1>Comprar ingresso</h1>
+                <h1>Informações do show</h1>
             </Titulo>
             <section className={styles.container}>
                 <img src={video.capa}/>
                 <p>{video.titulo}</p>
                 <p>{video.local}</p>
                 <p>{video.horario}</p>
-                <Link to="/">Comprar</Link>
             </section>
         </>
     )

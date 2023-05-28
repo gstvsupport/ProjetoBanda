@@ -16,7 +16,7 @@ function Cabecalho() {
                 <CabecalhoLink url="./Favoritos">
                     Favoritos
                 </CabecalhoLink>
-                <CabecalhoLink url="/">
+                <CabecalhoLink url="./Perfil">
                     Perfil
                 </CabecalhoLink>
                 <CabecalhoLink url="/">
